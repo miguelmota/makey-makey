@@ -1,0 +1,27 @@
+{
+  "name": "makey-makey",
+  "version": "0.0.1",
+  "description": "A node-hid based driver to read actions from the [MaKey MaKey](http://www.makeymakey.com/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "node-hid": "^0.3.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/makey-makey"
+  },
+  "keywords": [
+    "makey",
+    "makey"
+  ],
+  "bugs": {
+    "url": "https://github.com/miguelmota/makey-makey/issues"
+  },
+  "homepage": "https://github.com/miguelmota/makey-makey"
+}
