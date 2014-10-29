@@ -71,12 +71,8 @@ function MaKeyMaKey(index) {
   }.bind(this));
 
   this.hid.on('error', function(error) {
-    throw error;
-  });
-
-  this.hid.read(function(err, data) {
-
-  });
+    this.emit(error, error);
+  }.bind(this));
 
 }
 

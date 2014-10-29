@@ -61,6 +61,9 @@ for (var i = 0; i < MaKeyMaKey.deviceCount(); i++) {
   })
   .on('a5', function (buf) {
     console.log('A5');
+  })
+  .on('error', function (error) {
+    throw error;
   });
 
 }
